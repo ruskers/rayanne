@@ -1,0 +1,264 @@
+.proc-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/blank-white-label-medicine-bottle-glass-vial-injection_53876-96863.jpg?w=1060&t=st=1695144050~exp=1695144650~hmac=338437096b5272e74a9cd4d843775a2fd0ec94c23f2f952473a07fbbdc26fc52);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+h3{
+    font-family: 'poppins';
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: #ff4b4b; 
+}
+
+.terceiro{
+    font-family: 'poppins';
+    text-align: center;
+    font-size: 30px;
+    color: #ff7373;
+    margin-left: 0;
+}
+
+.proc-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+#expand {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 0;
+  background-color:#ff4b4b;
+  border-radius: 30px;
+  padding: 10px;
+  color: antiquewhite;
+}
+
+#expand:hover{
+    animation: translateY 0.8s infinite alternate;
+    background-color:#ff7373 ;
+}
+
+@keyframes translateY {
+    from{
+        transform: translateY(0) scale(1);
+    }
+    to {
+        transform: translateY(-8px) scale(1);
+    
+    }
+    }
+
+    @media ( max-width: 415px ){
+        h3{
+            font-size: 2em;
+            color:rgb(61, 61, 61);
+        }
+
+        .terceiro{
+            font-size: 1em;
+            color: #ffffff;
+            background-color: rgb(233, 109, 109);
+            border-radius: 20px;
+            padding: 10px;
+            width: 90%;
+            
+        }
+
+        .proc-container{
+            background-image: url(https://img.freepik.com/free-photo/top-view-yellow-fever-vaccine-concept_23-2150062537.jpg?w=360&t=st=1695799357~exp=1695799957~hmac=3f75422dffbc899e733da3730222cd43f49280e5815f7f95dee76bff6d3b1d50);
+        }
+    }
+
+    /* TIPOS DE TRATAMENTO */
+
+    .trata-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        background-image: url(https://img.freepik.com/free-photo/pink-toned-cardboard-sheets-with-copy-space_23-2148320487.jpg?w=1380&t=st=1695149606~exp=1695150206~hmac=ab012bcdfb2987c6a47b16049dd4788e84fe7b7b7b463cab0d63e4d83d5fd980);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        margin-top: 20px;
+        height: 100vh !important;
+        width: 100%;
+    }
+    
+    h4{
+        font-family: 'poppins';
+        font-size: 40px;
+        font-weight: 500;
+        text-align: left;
+        color: #494949; 
+    }
+    
+    .quarto{
+        font-family: 'poppins';
+        text-align: left;
+        font-size: 25px;
+        color: rgb(255, 0, 0);
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .img-trata{
+        width: 40%;
+        height: 100%;
+        margin-left: 0;
+        padding: 20px;
+        margin-top: 0px;
+    }
+    
+    .lista,#one{
+        text-decoration: none;
+        font-family: 'poppins';
+        text-align: left;
+        font-size: 25px;
+        color: rgb(22, 22, 22);
+        margin-left: 0;
+        margin-top: 20px;
+        padding: 0;
+    }
+    
+    #one:hover{
+        animation: translateY 0.8s infinite alternate;
+        color: rgb(255, 116, 116);
+        background: transparent;
+    }
+    
+    @keyframes translateY {
+        from{
+            transform: translateY(0) scale(1);
+        }
+        to {
+            transform: translateY(-8px) scale(1);
+        
+        }
+        }
+        @media ( max-width: 415px ){
+            h4{
+                font-size: 1.3em;
+                margin-left: 20px;
+                white-space: nowrap;
+            }
+            #br1{
+                display: none;
+            }
+            .quarto{
+                font-size: 0.8em;
+                margin-left: 10px;
+                padding: 10px;
+            }
+            .lista,#one{
+                font-size: 1em;
+                padding: 10px;
+                margin-top: 0px;
+            }
+            .trata-container{
+                flex-direction: column;
+                background-image: none;
+            }
+
+            .img-trata{
+                width: 100%;
+                padding: 20px;
+            }
+        }
+
+    //section resultados
+
+h5{
+    font-family: 'poppins';
+    font-size: 80px;
+    font-weight: 500;
+    text-align: left;
+    color: #ff4b4b;
+    margin-top: 10px;
+}
+
+.resultados-container{
+    height: 100vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-organization {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#material {
+    padding: 8px;
+    height: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 40%;
+    height: 90%;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.mySlides {
+    width: 25%;
+    position: relative;
+}
+
+.img5{
+    width: 100%;
+}
+
+@media ( max-width: 415px ){
+    h5{
+        font-size: 2em;
+        margin-top: 50%;
+    }
+
+    .resultados-container, #resutados{
+        background-color: #ffd3c5;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        
+   }
+    .slider{
+        width: 100%;
+        padding: 10px;
+    }
+}

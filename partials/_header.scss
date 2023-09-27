@@ -1,0 +1,280 @@
+.cabecalho{
+    position: fixed;
+    transition: background-color 0.5s ease;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'poppins';
+    margin-left: 10%;
+    gap: 5rem;
+}
+
+.logo{
+    width: 15%;
+    padding: 1.5em;
+    transition: width 0.5s ease;
+}
+
+.nav_list{
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    padding: 30px;
+    gap: 2rem;
+    text-align: left;
+    margin-left: 0;
+}
+
+ul{
+    list-style: none;
+    }
+
+.a, .s{
+text-decoration: none;
+color: #ffffff;
+font-size: 1.5em;
+font-weight: 300;
+}
+
+.a:hover{
+    animation: translateY 0.8s infinite alternate;
+    background-color: rgb(252, 249, 245);
+    border-radius: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+.s:hover{
+    animation: translateY 0.8s infinite alternate;
+    background-color: rgb(252, 249, 245);
+    border-radius: 20px;
+    color: #000000;
+    padding: 10px;
+}
+
+/* HOME */
+
+.home-header{
+    background-image: url(../assets/header2.jpg) ;
+    background-position: 50% 50% ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+   
+    width: 100%;
+    height: 100vh;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    flex-direction: center;
+    gap: 1rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10%;
+}
+
+h1{
+    font-family: 'poppins';
+    font-size: 4em;
+    font-weight: 300;
+}
+
+p{
+    font-family: 'poppins';
+    font-size: 1.5em;
+    font-weight: 300; 
+}
+
+h1,p{
+    color: #ffffff;
+}
+
+.ver{
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 200;
+    font-family: 'poppins';
+    font-size: 1.5em;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    
+}
+
+.ver:hover{
+    border: 1px solid #ff8976;
+    color: #ff8787;
+}
+
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+
+
+/* RESPONSIVIDADE */
+
+
+
+@media ( max-width: 415px ){
+
+    /*header*/
+    .nav_list{
+        display: none;
+    } 
+
+    .logo{
+        width: 40%;
+    }
+
+    .header-content{
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        border: 0px solid;
+      }
+      
+      .mobile-menu-icon button{
+        background-color: transparent;
+        border: 0px solid transparent;
+      } 
+      
+      #menu{
+        color: rgb(255, 60, 105);
+        padding: 0px;
+        margin-right: 40px;
+      }
+    
+      .home-header{
+        height: 500px;
+        background-image: url(../assets/headerIphone.jpg);
+        background-size: 450px;
+        background-position: 100%;
+        background-position-y: 0px;
+        background-position-x: 0px;
+      }
+
+      h1{
+        font-size: 1.5em;
+      }
+
+      p{
+        font-size: 0.6em;
+      }
+
+      .ver{
+    font-size: 0.5em;
+    white-space: nowrap;
+    width: 30%;
+    }
+
+    .home{
+        top: 50%;
+    }
+
+}
+
+@media (min-width: 319px) and ( max-width: 376px ){
+    .home{
+        top: 20%;
+    }
+
+    .ver{
+        width: 40%;
+    }
+
+
+}
+
+@media  (min-width: 768px) and (max-width: 1023px) {
+    .logo{
+        width: 20%;
+    }
+
+    .header-content{
+        gap: 1rem;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+
+    .nav_list{
+        display: none;
+    } 
+
+    .mobile-menu-icon{
+        display: block;
+        border: 0px solid;
+        
+      }
+      
+      .mobile-menu-icon button{
+        background-color: transparent;
+        border: 0px solid transparent;
+      } 
+      
+      #menu{
+        color: rgb(255, 60, 105);
+        padding: 0px;
+        margin-right: 40px;
+      }
+      
+      .home-header{
+        background-size: 900px;
+        background-position-x: 0;
+        background-position-y:0 ;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    p{
+        font-size: 1em;
+    }
+
+    .home{
+        top: 12%;
+    }
+
+    .ver{
+        font-size: 1em;
+        white-space: nowrap;
+        width: 30%;
+    }
+}
+
+@media (min-width: 415px) and (max-width: 767px) {
+
+    .home-header{
+        background-size: 600px;
+        background-position-x: 0;
+        background-position-y:0 ;
+    }
+
+    .nav_list{
+        display: none;
+    } 
+
+}
+
+
+

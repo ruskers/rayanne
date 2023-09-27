@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&family=Kurale&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap);
+
+h6{
+    font-family: "poppins";
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+   
+    width: 20%;
+    background-color: #ff7f7f;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+iframe{
+
+    margin-top: 15px;
+}
+
+footer {
+    background-color: rgb(255, 181, 234);
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-organization{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-logo img {
+    width: 100%;
+}
+
+#br4, #br5{
+    display: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: left;
+    text-align: left;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
+
+.location, .call, .mail, .rede {
+    font-family: 'poppins';
+    font-size: 15px;
+    margin-left: 0px;
+}
+
+.social a {
+    text-decoration: none;
+    color: #f955ad;
+    margin: 0 10px;
+}
+
+.social-media{
+    border: 2px solid #fff;
+    height: 90px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rede{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF1493;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.fim{
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+#location, #call, #mail{
+    background-color: transparent;
+    color: #f955ad;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-direction: left;
+}
+
+.fa-brands:hover{
+    animation: translateY 0.8s infinite alternate;
+    background-color: white;
+    border-radius: 20px;
+    color: #ff7f7f;
+    padding: 10px;
+}
+
+.fa-brands{
+    width: 100%;
+    gap: 5rem;
+}
+
+.ruskers{
+    color: #313131;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ruskers:hover{
+    color: rgb(147, 147, 147);
+}
+
+@media ( max-width: 415px ){
+    h6{
+        font-size: 1em;
+        font-weight: 300;
+        width: 45%;
+        white-space: nowrap;
+    }
+
+    .footer-organization{
+        flex-direction: column;
+    }
+
+    .social-media{
+        margin-top: 30px;
+    }
+
+    .final{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 120px;
+      .fim{
+        font-size: 15px;
+        white-space: nowrap;
+        text-align: center;
+      }  
+
+      .ruskers{
+        font-size: 18px;
+      }
+
+      #br4,#br5{
+        display: block;
+      }
+
+    }
+}

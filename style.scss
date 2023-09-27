@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import "partials/header";
+@import "partials/perfil";
+@import "partials/procedimentos";
+@import "partials/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&family=Kurale&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+    scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}

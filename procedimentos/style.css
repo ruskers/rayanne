@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Serif+Display&family=Kurale&family=Libre+Baskerville:wght@400;700&family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Playfair+Display:wght@400;500;600&family=Poppins:wght@200;300;400;500;600;700;900&family=Raleway:wght@400;500;900&family=Rampart+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.body1 {
+  background-image: url(https://img.freepik.com/fotos-gratis/mulher-no-salao-de-beleza-para-tratamento-facial_23-2148875514.jpg?w=1060&t=st=1695247815~exp=1695248415~hmac=55a0859f6b86b12dddefcf20384c0410ff56551169c2917816b14f83bedbd325);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.body1 a {
+  color: #444343;
+}
+
+.body2 {
+  background-image: url(https://img.freepik.com/fotos-gratis/injecao-cosmetica-de-botox-na-testa-feminina_651396-832.jpg?w=1060&t=st=1695246722~exp=1695247322~hmac=efb09ae9374fb2671abb6854dcb13a10029cf34480f69a7ee8e7cf70ad6082ba);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body3 {
+  background-image: url(https://img.freepik.com/fotos-gratis/vista-acima-mulher-recebendo-tratamento-de-prp-facial_23-2149404707.jpg?w=1060&t=st=1695248308~exp=1695248908~hmac=d09562279cb2866940e703ea24c6838bea61a75f76a31451f5b494257a408d85);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+.body3 h1 {
+  color: #000000;
+  font-weight: 400;
+}
+.body3 a {
+  color: #000000;
+}
+
+.body4 {
+  background-image: url(https://media.gazetadopovo.com.br/2022/11/05091737/shutterstock_1036813285-960x540.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body5 {
+  background-image: url(https://farmaciaestetica.com.br/wp-content/uploads/2019/03/Hialuronidase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body6 {
+  background-image: url(https://img.freepik.com/fotos-gratis/vista-de-cima-do-rejuvenescimento-de-mulher-bonita-apreciando-procedimentos-de-cosmetologia-no-salao-de-beleza-dermatologia-maos-em-brilhos-azuis-saude-terapia-botox_197531-2783.jpg?w=1060&t=st=1695248808~exp=1695249408~hmac=26bff15043751a852c5b50c90ded3abaff5c1af9d17b37f5cebb53eaae38f2f0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body7 {
+  background-image: url(https://i0.wp.com/drdanielstellin.com.br/wp-content/uploads/2022/03/shutterstock_482330014.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body8 {
+  background-image: url(https://img.freepik.com/fotos-gratis/feche-a-mulher-recebendo-preenchimentos-labiais_23-2149341847.jpg?w=1060&t=st=1695248944~exp=1695249544~hmac=b2d10cfce0698c9d287c55815d136b47e9f0eab79fecaa573400f598a3eeed5e);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body9 {
+  background-image: url(https://dragiselemilla.com.br/wp-content/uploads/2022/04/o-que-e-protocoll-dra-gisele-milla-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body10 {
+  background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-mulher-madura-antes-e-depois-retocado_23-2149121634.jpg?w=1060&t=st=1695249136~exp=1695249736~hmac=3a256ece4763fcd942638b59864d9f16a55aece77ca78a5408b2961cda30d1b6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.body11 {
+  background-image: url(https://dermathoclin.com.br/content/uploads/2019/09/reducao_rugas-1200x675.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#cabecalho {
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "poppins";
+}
+
+.logo {
+  width: 12%;
+  padding: 15px;
+}
+
+.nav_list {
+  flex-direction: row;
+  display: flex;
+  gap: 5rem;
+  padding: 30px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #313131;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a:hover {
+  animation: translateY 0.8s infinite alternate;
+  background-color: rgb(252, 249, 245);
+  border-radius: 20px;
+  color: #000000;
+  padding: 10px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 50%;
+  height: 500px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-family: "poppins";
+  font-size: 45px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 0;
+  color: rgb(239, 24, 67);
+}/*# sourceMappingURL=style.css.map */
